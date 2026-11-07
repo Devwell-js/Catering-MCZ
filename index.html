@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fcfaf5">
+  <meta name="description" content="Há mais de 40 anos, Catering MCZ conecta gastronomia e excelência operacional em catering aéreo, handling, lavanderia, Sala VIP e delivery.">
+  <title>Catering MCZ — Cuidado que acompanha cada voo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/deck/deck-data.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <span class="site-flight" aria-hidden="true">
+    <span class="site-flight-plane"><svg viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5L21 16z"/></svg></span>
+  </span>
+  <header class="site-header" id="topo">
+    <a class="brand" href="#inicio" aria-label="Catering MCZ — início">
+      <img src="assets/deck/image1.png" alt="Logo da Catering MCZ">
+      <span class="brand-caption">Refeições &amp; soluções<br>para a aviação</span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="navigation" id="primary-navigation" aria-label="Navegação principal">
+      <a href="#quem-somos">Quem somos</a>
+      <a href="#estrutura">Estrutura</a>
+      <a href="#servicos">Soluções</a>
+      <a href="#portfolio">Portfólio</a>
+      <button class="header-search" id="search-toggle" type="button" aria-expanded="false" aria-controls="search-panel" aria-label="Buscar conteúdo" title="Buscar conteúdo">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.2 4.2"/></svg><span>Buscar</span>
+      </button>
+      <a class="nav-cta" href="#proximo-passo">Vamos conversar <span aria-hidden="true">↗</span></a>
+    </nav>
+    <div class="search-panel" id="search-panel" hidden>
+      <label class="sr-only" for="search-input">Buscar na apresentação</label>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.2 4.2"/></svg>
+      <input id="search-input" type="search" placeholder="Experimente: handling, salmão, café da manhã…" autocomplete="off">
+      <button id="search-close" type="button" aria-label="Fechar busca">Esc</button>
+      <div class="search-results" id="search-results" hidden></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-shell content-width">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Catering aéreo · Maceió, Alagoas</p>
+          <h1 data-editable="hero-title">A viagem começa no cuidado de <span>cada detalhe.</span></h1>
+          <p class="hero-description" data-editable="hero-description">Há mais de 40 anos, combinamos gastronomia, serviço e eficiência operacional para acompanhar a experiência de quem voa.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#portfolio">Explore o portfólio <span aria-hidden="true">↘</span></a>
+            <a class="button-link" href="#quem-somos">Quem somos <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-proof">
+            <span class="proof-flight" aria-hidden="true"><span class="proof-plane"><svg viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5L21 16z"/></svg></span></span>
+            <div class="proof-symbol" aria-hidden="true">40<span>+</span></div>
+            <p><strong>anos no setor aeronáutico</strong><span>Experiência construída em movimento.</span></p>
+          </div>
+        </div>
+        <div class="hero-collage reveal" aria-label="Fotografias de refeições Catering MCZ">
+          <div class="collage-orbit" aria-hidden="true"></div>
+          <button class="photo-button hero-photo-main" type="button" data-detail-slide="1" data-detail-image="0" aria-label="Abrir detalhes sobre a Catering MCZ">
+            <img src="assets/deck/image3.png" alt="Refeição completa apresentada pela Catering MCZ" fetchpriority="high">
+            <span class="photo-open-cue">Conheça os serviços <span aria-hidden="true">↗</span></span>
+          </button>
+          <button class="photo-button hero-photo-top" type="button" data-detail-slide="14" data-detail-image="0" aria-label="Ver os detalhes do café da manhã Premium">
+            <img src="assets/deck/image24.jpg" alt="Bandeja de café da manhã com frutas, sanduíche e outros itens" fetchpriority="high">
+          </button>
+          <button class="photo-button hero-photo-bottom" type="button" data-detail-slide="13" data-detail-image="0" aria-label="Ver opções de refeição quente Premium">
+            <img src="assets/deck/image23.jpg" alt="Seleção de pratos quentes da apresentação Catering MCZ" fetchpriority="high">
+          </button>
+          <span class="collage-number">MCZ <span>·</span> 1984</span>
+        </div>
+      </div>
+      <a class="hero-scroll" href="#portfolio"><span></span> Role para descobrir</a>
+    </section>
+
+    <section class="guide-section portfolio-roadmap" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="content-width">
+        <div class="portfolio-heading">
+          <div>
+            <p class="eyebrow eyebrow-on-dark"><span class="eyebrow-line"></span> Apresentação institucional e comercial</p>
+            <h2 id="portfolio-title" data-editable="portfolio-title">Um portfólio organizado <em>em nove etapas.</em></h2>
+          </div>
+          <p data-editable="portfolio-intro">Conheça a empresa, sua estrutura, suas soluções e os próximos caminhos para construir uma parceria.</p>
+        </div>
+        <nav class="portfolio-steps" aria-label="Etapas do portfólio comercial">
+          <a class="portfolio-step" href="#quem-somos"><span class="portfolio-step-number">01</span><span><strong data-editable="portfolio-step-1-title">Nossa História</strong><small data-editable="portfolio-step-1-description">40 anos de tradição e evolução</small></span><span class="portfolio-step-state">Institucional</span></a>
+          <a class="portfolio-step" href="#estrutura"><span class="portfolio-step-number">02</span><span><strong data-editable="portfolio-step-2-title">Nossa Estrutura</strong><small data-editable="portfolio-step-2-description">Produção, equipes e logística</small></span><span class="portfolio-step-state">Estrutura</span></a>
+          <a class="portfolio-step" href="#servicos"><span class="portfolio-step-number">03</span><span><strong data-editable="portfolio-step-3-title">Nossas Soluções</strong><small data-editable="portfolio-step-3-description">Serviços para diferentes operações</small></span><span class="portfolio-step-state">Soluções</span></a>
+          <a class="portfolio-step" href="#catalogo"><span class="portfolio-step-number">04</span><span><strong data-editable="portfolio-step-4-title">Portfólio de Produtos</strong><small data-editable="portfolio-step-4-description">Categorias para o catálogo comercial</small></span><span class="portfolio-step-state">Produtos</span></a>
+          <a class="portfolio-step" href="#qualidade"><span class="portfolio-step-number">05</span><span><strong data-editable="portfolio-step-5-title">Qualidade e Segurança</strong><small data-editable="portfolio-step-5-description">Boas práticas e acompanhamento técnico</small></span><span class="portfolio-step-state">Qualidade</span></a>
+          <a class="portfolio-step" href="#operacao"><span class="portfolio-step-number">06</span><span><strong data-editable="portfolio-step-6-title">Operação e Logística</strong><small data-editable="portfolio-step-6-description">Do preparo à entrega</small></span><span class="portfolio-step-state">Operação</span></a>
+          <a class="portfolio-step" href="#clientes"><span class="portfolio-step-number">07</span><span><strong data-editable="portfolio-step-7-title">Clientes e Experiência</strong><small data-editable="portfolio-step-7-description">Segmentos e contextos de atuação</small></span><span class="portfolio-step-state">Experiência</span></a>
+          <a class="portfolio-step" href="#personalizadas"><span class="portfolio-step-number">08</span><span><strong data-editable="portfolio-step-8-title">Soluções Personalizadas</strong><small data-editable="portfolio-step-8-description">Composições para cada parceiro</small></span><span class="portfolio-step-state">Personalização</span></a>
+          <a class="portfolio-step" href="#proximo-passo"><span class="portfolio-step-number">09</span><span><strong data-editable="portfolio-step-9-title">Contato Comercial</strong><small data-editable="portfolio-step-9-description">Prepare uma nova conversa</small></span><span class="portfolio-step-state">Parcerias</span></a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="about section-wrap" id="quem-somos">
+      <div class="about-visual reveal">
+        <button class="photo-button about-photo" type="button" data-detail-slide="1" data-detail-image="0" aria-label="Abrir mais informações sobre quem somos">
+          <img src="assets/deck/image2.png" alt="Refeição completa organizada para o serviço de bordo" loading="lazy">
+          <span class="image-number">CATERING MCZ <span>/</span> 01</span>
+        </button>
+        <button class="photo-button about-photo-small" type="button" data-detail-slide="1" data-detail-image="1" aria-label="Ver outra imagem da Catering MCZ">
+          <img src="assets/deck/image3.png" alt="Composição gastronômica apresentada pela Catering MCZ" loading="lazy">
+          <span class="photo-mini-cta" aria-hidden="true">↗</span>
+        </button>
+        <div class="about-stamp" aria-label="Mais de 40 anos de experiência">
+          <span>40</span><span class="stamp-plus">+</span><small>anos<br>de experiência</small>
+        </div>
+      </div>
+      <div class="about-copy reveal">
+        <p class="eyebrow">01 Nossa História</p>
+        <h2 data-editable="about-title">40 anos de história, tradição e <em>evolução.</em></h2>
+        <p class="body-intro" data-editable="about-lead">Com 40 anos de experiência e tradição, a Catering MCZ é referência em soluções de alimentação e serviços especializados, unindo qualidade, eficiência e atendimento personalizado.</p>
+        <p class="body-copy" data-editable="about-sector">Com sólida atuação no setor aeronáutico, oferecemos serviços de Catering Aéreo, Handling, Lavanderia e Alimentação Corporativa, atendendo companhias aéreas nacionais e internacionais, aviação executiva e clientes empresariais. Nosso portfólio inclui refeições, lanches, sanduíches, saladas, sobremesas e kits personalizados, além de serviços especializados de apoio operacional e higienização.</p>
+        <p class="body-copy" data-editable="about-generation">Em nossa terceira geração de gestão familiar, combinamos experiência, inovação e excelência operacional para entregar soluções seguras, confiáveis e adaptadas às necessidades de cada cliente.</p>
+        <p class="about-signature" data-editable="about-signature">Catering MCZ — Há 40 anos, alimentando histórias, conectando destinos e construindo relações de confiança.</p>
+        <a class="text-cta" href="#estrutura">Conheça nossa estrutura <span aria-hidden="true">→</span></a>
+        <div class="about-facts">
+          <div><span class="fact-index">01</span><strong>Serviços integrados</strong></div>
+          <div><span class="fact-index">02</span><strong>Processos auditáveis</strong></div>
+          <div><span class="fact-index">03</span><strong>Operação nacional e internacional</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="structure-section section-wrap section-tint" id="estrutura" aria-labelledby="structure-title">
+      <div class="content-width">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">02 Nossa Estrutura</p>
+            <h2 id="structure-title" data-editable="structure-title">Estrutura operacional, <em>experiência e eficiência.</em></h2>
+          </div>
+          <p class="heading-aside" data-editable="structure-aside">Uma organização voltada ao preparo, acondicionamento e distribuição de alimentos para os segmentos aéreo, empresarial e comercial.</p>
+        </div>
+        <div class="structure-intro reveal">
+          <p data-editable="structure-intro-1">A Catering MCZ conta com uma estrutura de produção e operação organizada para atender às particularidades de diferentes demandas e janelas de atendimento.</p>
+          <p data-editable="structure-intro-2">Combinamos a experiência adquirida ao longo de quatro décadas com o aprimoramento contínuo dos processos, buscando padronização, eficiência, segurança alimentar e pontualidade.</p>
+        </div>
+        <div class="structure-grid">
+          <article class="structure-card reveal"><span>01</span><h3 data-editable="structure-card-1-title">Produção especializada</h3><p data-editable="structure-card-1-description">Setores de produção quente e fria para desenvolver soluções alimentícias diversificadas.</p></article>
+          <article class="structure-card reveal"><span>02</span><h3 data-editable="structure-card-2-title">Equipes integradas</h3><p data-editable="structure-card-2-description">Apoio operacional, logística e administração conectados às necessidades de cada serviço.</p></article>
+          <article class="structure-card reveal"><span>03</span><h3 data-editable="structure-card-3-title">Acompanhamento técnico</h3><p data-editable="structure-card-3-description">Atuação com acompanhamento de profissional nutricionista responsável técnica.</p></article>
+          <article class="structure-card structure-capacity reveal"><span>04</span><h3 data-editable="structure-card-4-title">Planejamento por demanda</h3><p data-editable="structure-card-4-description">Produtos, volumes solicitados, horários e exigências operacionais considerados no planejamento de cada atendimento.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section-wrap section-tint" id="servicos">
+      <div class="section-heading content-width reveal">
+        <div>
+          <p class="eyebrow">03 Nossas Soluções</p>
+          <h2 data-editable="services-title">Uma operação conectada, <em>do solo à cabine.</em></h2>
+        </div>
+        <p class="heading-aside" data-editable="services-aside">Da aviação ao setor empresarial, soluções desenvolvidas para cada operação, com qualidade, praticidade e confiabilidade.</p>
+      </div>
+
+      <div class="service-grid content-width" id="service-grid">
+        <article class="service-card service-feature-card reveal">
+          <button class="service-photo-button photo-button" type="button" data-detail-slide="2" data-detail-image="0" aria-label="Ver fotos e informações do serviço de handling">
+            <img src="assets/deck/image4.png" alt="Veículo de apoio na operação de handling do aeroporto" loading="lazy">
+            <span class="photo-action">Ver operação <span aria-hidden="true">↗</span></span>
+          </button>
+          <div class="service-card-body">
+            <div class="service-card-meta"><span>01</span><span>Operação de solo</span></div>
+            <h3 data-editable="handling-title">Handling</h3>
+            <p>Coordenação de refeições e equipamentos junto às equipes de solo e cabine, com atenção às janelas e aos prazos operacionais.</p>
+            <button class="service-detail-link" type="button" data-detail-slide="2" data-detail-image="0">Conheça os detalhes <span>→</span></button>
+          </div>
+        </article>
+        <article class="service-card reveal">
+          <button class="service-photo-button photo-button" type="button" data-detail-slide="4" data-detail-image="0" aria-label="Ver fotos e informações do catering e serviço de bordo">
+            <img src="assets/deck/image7.png" alt="Variedade de pratos para o catering e o serviço de bordo" loading="lazy">
+            <span class="photo-action">Ver cardápio <span aria-hidden="true">↗</span></span>
+          </button>
+          <div class="service-card-body">
+            <div class="service-card-meta"><span>03</span><span>Experiência a bordo</span></div>
+            <h3 data-editable="catering-title">Catering aéreo</h3>
+            <p>Refeições, lanches e snacks para tripulação e passageiros, com opções Premium e Economy.</p>
+            <button class="service-detail-link" type="button" data-detail-slide="4" data-detail-image="0">Explore os menus <span>→</span></button>
+          </div>
+        </article>
+        <article class="service-card reveal">
+          <div class="delivery-service-gallery" aria-label="Fotos do Delivery Service">
+            <button class="service-photo-button photo-button" type="button" data-detail-slide="6" data-detail-image="2" aria-label="Ver refeição individual do Delivery Service">
+              <img src="assets/delivery/delivery-mcz-refeicao-individual.jpeg" alt="Cliente segurando uma refeição individual com frango, arroz, purê e salada" loading="lazy">
+              <span class="photo-action">Ver refeição <span aria-hidden="true">↗</span></span>
+            </button>
+            <button class="service-photo-button photo-button" type="button" data-detail-slide="6" data-detail-image="3" aria-label="Ver opções de refeições do Delivery Service">
+              <img src="assets/delivery/delivery-mcz-opcoes-de-refeicoes.jpeg" alt="Duas refeições completas para delivery com bebidas e acompanhamentos" loading="lazy">
+              <span class="photo-action">Ver opções <span aria-hidden="true">↗</span></span>
+            </button>
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-meta"><span>05</span><span>Delivery Service</span></div>
+            <h3 data-editable="delivery-title">Refeições que chegam até você.</h3>
+            <p>Quentinhas completas para empresas e clientes que estão próximos à nossa unidade em Maceió.</p>
+            <button class="service-detail-link" type="button" data-detail-slide="6" data-detail-image="1">Como funciona <span>→</span></button>
+          </div>
+        </article>
+        <article class="service-card service-card-text reveal">
+          <span class="service-card-meta"><span>02</span><span>Higiene e organização</span></span>
+          <div class="service-name-art"><h3 data-editable="laundry-title">Lavanderia</h3></div>
+          <div class="service-card-body">
+            <p>Lavagem, higienização, separação e rastreabilidade de enxovais e itens têxteis para atender às rotinas da aviação.</p>
+            <button class="service-detail-link" type="button" data-detail-slide="3">Conheça os detalhes <span>→</span></button>
+          </div>
+        </article>
+        <article class="service-card service-card-text service-vip reveal">
+          <span class="service-card-meta"><span>04</span><span>Hospitalidade</span></span>
+          <div class="service-name-art"><h3 data-editable="vip-title">Sala VIP</h3></div>
+          <div class="service-card-body">
+            <p>Uma parceria de fornecimento gastronômico com diferentes opções de proteínas, sobremesas e guarnições.</p>
+            <button class="service-detail-link" type="button" data-detail-slide="5">Sobre a parceria <span>→</span></button>
+          </div>
+        </article>
+        <article class="service-card service-card-text service-corporate reveal">
+          <span class="service-card-meta"><span>06</span><span>Empresas e equipes</span></span>
+          <div class="service-name-art"><h3>Alimentação corporativa</h3></div>
+          <div class="service-card-body">
+            <p>Refeições para empresas, construtoras e equipes operacionais, planejadas de acordo com o serviço e a rotina de cada parceiro.</p>
+            <a class="service-detail-link" href="#proximo-passo">Converse sobre sua operação <span>→</span></a>
+          </div>
+        </article>
+        <article class="service-card service-card-text reveal">
+          <span class="service-card-meta"><span>07</span><span>Fornecimento comercial</span></span>
+          <div class="service-name-art"><h3>Produtos para estabelecimentos</h3></div>
+          <div class="service-card-body">
+            <p>Sanduíches, lanches e outras opções para lojas, cafeterias e operações de alimentação, conforme o perfil do cliente.</p>
+            <a class="service-detail-link" href="#catalogo">Veja as categorias previstas <span>→</span></a>
+          </div>
+        </article>
+        <article class="service-card service-card-text service-card-additional reveal">
+          <span class="service-card-meta"><span>08</span><span>Sob medida</span></span>
+          <div class="service-name-art"><h3 data-editable="additional-title">E ainda mais possibilidades.</h3></div>
+          <div class="service-card-body">
+            <p>Kits de bordo, utensílios, condimentos e serviços adaptados à identidade e às necessidades de cada companhia.</p>
+            <button class="service-detail-link" type="button" data-detail-slide="11">Descubra as possibilidades <span>→</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature-section section-wrap">
+      <div class="section-heading content-width reveal">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> Em cada etapa</p>
+          <h2 data-editable="feature-title">Um pouco do cuidado<br>que <em>acompanha o voo.</em></h2>
+        </div>
+        <div class="slider-controls">
+          <button id="featured-prev" class="slider-arrow" type="button" aria-label="Fotografias anteriores" disabled>←</button>
+          <button id="featured-next" class="slider-arrow" type="button" aria-label="Próximas fotografias">→</button>
+        </div>
+      </div>
+      <div class="featured-viewport">
+        <div class="featured-track" id="featured-track" aria-label="Galeria de fotografias Catering MCZ"></div>
+      </div>
+      <div class="slider-footer content-width">
+        <div id="featured-dots" class="slider-dots" role="group" aria-label="Posição da galeria"></div>
+        <p>Selecione uma fotografia para ver o conteúdo e os detalhes da apresentação.</p>
+      </div>
+    </section>
+
+    <section class="gastronomy section-wrap section-tint" id="gastronomia">
+      <div class="content-width">
+        <div class="section-heading food-heading reveal">
+          <div>
+            <p class="eyebrow">04 Portfólio de Produtos</p>
+            <h2 data-editable="gastronomy-title">Bons ingredientes.<br><em>Boas combinações.</em></h2>
+          </div>
+          <p class="heading-aside" data-editable="products-aside">Variedade para compor cardápios e experiências em sintonia com cada cliente.</p>
+        </div>
+
+        <div class="catalog-plan reveal" id="catalogo">
+          <div class="catalog-plan-heading">
+            <span class="catalog-plan-number">04</span>
+            <div><p class="catalog-plan-kicker">Próxima etapa do catálogo comercial</p><h3 data-editable="catalog-title">Produtos organizados para cada ocasião.</h3></div>
+          </div>
+          <div class="catalog-categories" aria-label="Categorias previstas para o catálogo de produtos">
+            <span data-editable="catalog-category-1">Sanduíches e lanches</span>
+            <span data-editable="catalog-category-2">Refeições</span>
+            <span data-editable="catalog-category-3">Cafés e salgados</span>
+            <span data-editable="catalog-category-4">Sobremesas</span>
+          </div>
+          <p data-editable="catalog-description">O catálogo poderá apresentar fotografias reais da Catering MCZ, descrições curtas e principais opções de cada categoria. Os valores ficam para uma proposta comercial separada.</p>
+        </div>
+
+        <div class="food-toolbar reveal">
+          <div class="food-filters" role="group" aria-label="Filtrar categoria gastronômica">
+            <button class="filter-chip is-active" type="button" data-food-filter="all" aria-pressed="true">Tudo <span>18</span></button>
+            <button class="filter-chip" type="button" data-food-filter="proteinas" aria-pressed="false">Proteínas</button>
+            <button class="filter-chip" type="button" data-food-filter="frutos-do-mar" aria-pressed="false">Frutos do mar</button>
+            <button class="filter-chip" type="button" data-food-filter="massas" aria-pressed="false">Massas</button>
+            <button class="filter-chip" type="button" data-food-filter="acompanhamentos" aria-pressed="false">Acompanhamentos</button>
+            <button class="filter-chip" type="button" data-food-filter="saladas" aria-pressed="false">Saladas</button>
+            <button class="filter-chip" type="button" data-food-filter="sobremesas" aria-pressed="false">Sobremesas</button>
+          </div>
+          <span class="food-tip"><span aria-hidden="true">↗</span> Clique nas fotos para ler</span>
+        </div>
+
+        <div class="food-grid" id="food-grid"></div>
+
+        <p class="food-source-note reveal" data-editable="food-source-note">Seleção de exemplos gastronômicos do material institucional atual. As imagens ilustram as opções apresentadas e não substituem o catálogo comercial final.</p>
+
+        <div class="food-disclaimer reveal">
+          <span class="disclaimer-star" aria-hidden="true">✳</span>
+          <p><strong>Cada cardápio pode ser diferente.</strong> Proteínas, acompanhamentos, combinações e apresentações são definidos conforme o perfil do serviço e as necessidades da operação.</p>
+          <button type="button" data-detail-slide="4" data-detail-image="0">Entenda as opções <span aria-hidden="true">→</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="onboard section-wrap" id="experiencias">
+      <div class="onboard-heading content-width reveal">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> O serviço de bordo</p>
+          <h2 data-editable="onboard-title">Da primeira bandeja<br><em>ao último detalhe.</em></h2>
+        </div>
+        <div class="class-toggle" role="group" aria-label="Escolha uma classe de serviço">
+          <button class="class-button is-active" type="button" data-class="premium" aria-pressed="true">Premium</button>
+          <button class="class-button" type="button" data-class="economy" aria-pressed="false">Economy</button>
+        </div>
+      </div>
+
+      <article class="meal-feature content-width reveal">
+        <button class="meal-image photo-button" id="meal-image" type="button" data-detail-slide="13" data-detail-image="0" aria-label="Abrir a composição da refeição quente Premium">
+          <img id="meal-image-content" src="assets/deck/image23.jpg" alt="Composição de refeição quente para o serviço de bordo" loading="lazy">
+          <span class="meal-photo-tag">Veja os itens da bandeja <span aria-hidden="true">↗</span></span>
+        </button>
+        <div class="meal-copy">
+          <div class="meal-topline"><span id="meal-level">Serviço Premium</span><span>01 <span>/</span> 02</span></div>
+          <h3 id="meal-title">Refeição quente</h3>
+          <p id="meal-description">Uma bandeja completa com entrada fria, prato quente, opção de proteína ou receita vegetariana, além de acompanhamentos.</p>
+          <div class="meal-components" id="meal-components"></div>
+          <button id="meal-details" class="text-cta" type="button" data-detail-slide="13">Ver composição e informações <span aria-hidden="true">→</span></button>
+          <p class="meal-footnote">Menus e configuração da bandeja são adaptáveis à identidade e aos padrões da companhia.</p>
+        </div>
+      </article>
+
+      <div class="menu-pair content-width">
+        <button class="menu-pair-card reveal" type="button" data-detail-slide="14" data-detail-image="0">
+          <span class="pair-photo"><img src="assets/deck/image24.jpg" alt="Café da manhã preparado para o serviço de bordo" loading="lazy"><span>Ver composição ↗</span></span>
+          <span class="pair-copy"><span>Um começo especial</span><strong>Café da manhã</strong><span>Frutas, bolo e opções de prato quente.</span></span>
+        </button>
+        <button class="menu-pair-card reveal" type="button" data-detail-slide="4" data-detail-image="1">
+          <span class="pair-photo"><img src="assets/deck/image8.png" alt="Bandeja de alimentação para o serviço de bordo" loading="lazy"><span>Conhecer o menu ↗</span></span>
+          <span class="pair-copy"><span>Para cada momento da viagem</span><strong>Mais opções de bordo</strong><span>Sanduíches, refeições e snacks variados.</span></span>
+        </button>
+      </div>
+
+      <div class="extras-bar content-width reveal">
+        <div class="extras-icon" aria-hidden="true">＋</div>
+        <p><span data-editable="extras-label">Um serviço que também está nos detalhes.</span><br><span>Kits de bordo, utensílios, condimentos, guardanapos e itens de apoio para a cabine.</span></p>
+        <button type="button" data-detail-slide="15">Explore as miscelâneas <span aria-hidden="true">→</span></button>
+      </div>
+    </section>
+
+    <section class="experience section-wrap">
+      <div class="content-width experience-layout">
+        <div class="experience-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Também em Maceió</p>
+          <h2 data-editable="delivery-feature-title">Sabor e praticidade, pertinho de você.</h2>
+          <p>Além do catering, a MCZ oferece delivery de refeições individuais para empresas e clientes próximos à unidade. Pratos variados, feitos com ingredientes selecionados e preparados com atenção à pontualidade.</p>
+          <button class="button button-outline" type="button" data-detail-slide="6" data-detail-image="1">Conheça o delivery <span aria-hidden="true">↗</span></button>
+        </div>
+        <button class="photo-button delivery-image reveal" type="button" data-detail-slide="6" data-detail-image="1" aria-label="Ver fotos e detalhes do serviço de delivery em Maceió">
+          <img src="assets/deck/image10.jpeg" alt="Refeição de delivery pronta para servir" loading="lazy">
+          <span class="delivery-caption">DELIVERY SERVICE <span>·</span> MCZ</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="commercial-sections section-wrap section-tint" aria-label="Qualidade, logística e soluções para parceiros">
+      <div class="content-width">
+        <section class="commercial-block reveal" id="qualidade" aria-labelledby="quality-title">
+          <div class="commercial-block-heading">
+            <p class="eyebrow">05 Qualidade e Segurança Alimentar</p>
+            <h2 id="quality-title" data-editable="quality-title">Cuidado e responsabilidade em cada etapa.</h2>
+            <p data-editable="quality-description">Boas práticas, controle de qualidade e acompanhamento de nutricionista responsável técnica fazem parte da organização dos serviços.</p>
+          </div>
+          <div class="commercial-points">
+            <article><span>01</span><strong data-editable="quality-point-1-title">Boas práticas</strong><p data-editable="quality-point-1-description">Rotinas orientadas à qualidade e à segurança dos alimentos.</p></article>
+            <article><span>02</span><strong data-editable="quality-point-2-title">Controle de qualidade</strong><p data-editable="quality-point-2-description">Acompanhamento alinhado às necessidades do serviço e do cliente.</p></article>
+            <article><span>03</span><strong data-editable="quality-point-3-title">Supervisão técnica</strong><p data-editable="quality-point-3-description">Nutricionista responsável técnica no acompanhamento da operação.</p></article>
+          </div>
+        </section>
+
+        <section class="commercial-block reveal" id="operacao" aria-labelledby="operations-title">
+          <div class="commercial-block-heading">
+            <p class="eyebrow">06 Operação e Logística</p>
+            <h2 id="operations-title" data-editable="operations-title">Processos conectados do preparo à entrega.</h2>
+            <p data-editable="operations-description">Uma operação organizada para considerar produtos, volumes solicitados, horários de atendimento e exigências específicas de cada demanda.</p>
+          </div>
+          <ol class="operation-flow">
+            <li><span>01</span><strong data-editable="operation-step-1">Preparação</strong></li>
+            <li><span>02</span><strong data-editable="operation-step-2">Acondicionamento</strong></li>
+            <li><span>03</span><strong data-editable="operation-step-3">Transporte</strong></li>
+            <li><span>04</span><strong data-editable="operation-step-4">Entrega</strong></li>
+          </ol>
+        </section>
+
+        <section class="commercial-block reveal" id="clientes" aria-labelledby="clients-title">
+          <div class="commercial-block-heading">
+            <p class="eyebrow">07 Clientes e Experiência</p>
+            <h2 id="clients-title" data-editable="clients-title">Experiência aplicada a diferentes contextos.</h2>
+            <p data-editable="clients-description">A experiência da MCZ conecta o conhecimento do setor aéreo a demandas empresariais e comerciais.</p>
+          </div>
+          <div class="client-segments">
+            <span data-editable="client-segment-1">Companhias aéreas</span>
+            <span data-editable="client-segment-2">Aviação executiva</span>
+            <span data-editable="client-segment-3">Sala VIP</span>
+            <span data-editable="client-segment-4">Empresas e equipes operacionais</span>
+            <span data-editable="client-segment-5">Estabelecimentos comerciais</span>
+            <span data-editable="client-segment-6">Construtoras</span>
+          </div>
+          <p class="client-note" data-editable="client-note">Cada proposta é alinhada ao perfil do parceiro e à operação a ser atendida.</p>
+        </section>
+
+        <section class="commercial-block custom-solutions reveal" id="personalizadas" aria-labelledby="custom-title">
+          <div class="custom-solutions-copy">
+            <p class="eyebrow">08 Soluções Personalizadas</p>
+            <h2 id="custom-title" data-editable="custom-title">Uma composição pensada para o seu negócio.</h2>
+            <p data-editable="custom-description">Produtos, combinações, volumes e horários podem ser definidos em conjunto, considerando o perfil do parceiro e as necessidades da operação.</p>
+          </div>
+          <a class="button button-outline" href="#proximo-passo">Conte sobre sua operação <span aria-hidden="true">↘</span></a>
+        </section>
+      </div>
+    </section>
+
+    <section class="next-step section-wrap" id="proximo-passo" aria-labelledby="contact-title">
+      <div class="next-step-panel content-width reveal">
+        <div class="next-step-copy">
+          <p class="eyebrow eyebrow-on-dark">09 Contato Comercial</p>
+          <h2 id="contact-title" data-editable="next-step-title">Vamos construir uma nova parceria?</h2>
+          <p>Para direcionar uma proposta, conte qual serviço precisa, quem será atendido, o tipo de experiência e os detalhes da operação.</p>
+          <div class="contact-links" aria-label="Canais de contato">
+            <p class="contact-link contact-number">(82) 3142-3722</p>
+            <a class="contact-link" href="mailto:administrativo@cateringmcz.com.br">
+              <span><small>E-mail administrativo</small><strong>administrativo@cateringmcz.com.br</strong></span><span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+        <div class="briefing" id="briefing">
+          <p class="briefing-label">Um bom ponto de partida</p>
+          <ol>
+            <li><span>01</span><p><strong>Modalidade</strong><small>Catering, handling, lavanderia, VIP ou delivery.</small></p></li>
+            <li><span>02</span><p><strong>Público e serviço</strong><small>Tripulação, passageiros, classe e frequência.</small></p></li>
+            <li><span>03</span><p><strong>Preferências</strong><small>Cardápio, combinações ou personalização de itens.</small></p></li>
+            <li><span>04</span><p><strong>Operação</strong><small>Local, horários e necessidades específicas.</small></p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main content-width">
+      <a class="footer-brand" href="#inicio" aria-label="Voltar ao início"><img src="assets/deck/image1.png" alt="Catering MCZ"></a>
+      <p>Refeições e soluções para acompanhar<br>a experiência da aviação.</p>
+      <nav class="footer-links" aria-label="Navegação do rodapé">
+        <a href="#quem-somos">Quem somos</a><a href="#estrutura">Estrutura</a><a href="#servicos">Soluções</a><a href="#catalogo">Produtos</a><a href="#proximo-passo">Contato comercial</a>
+      </nav>
+      <button class="footer-top" type="button" id="back-to-top">Voltar ao topo ↑</button>
+    </div>
+    <div class="footer-bottom content-width"><span>© <span id="current-year"></span> Catering MCZ · F.H RICCIARDI · CNPJ 07.014.233/0001-92 · All rights reserved.</span></div>
+  </footer>
+
+  <div class="edit-bar" id="edit-bar" hidden aria-live="polite">
+    <div><span class="edit-dot"></span><strong>Edição ativada</strong><span>Selecione os títulos e os textos contornados para editar.</span></div>
+    <button id="save-edits" type="button">Salvar neste navegador</button>
+    <button id="reset-edits" type="button">Restaurar original</button>
+  </div>
+
+  <dialog class="detail-dialog" id="detail-dialog" aria-labelledby="detail-title">
+    <article class="detail-panel">
+      <header class="detail-header">
+        <div><p id="detail-eyebrow">INFORMAÇÕES DA APRESENTAÇÃO</p><p id="detail-page">01 / 16</p></div>
+        <button type="button" id="detail-close" class="detail-close" aria-label="Fechar detalhes">×</button>
+      </header>
+      <div class="detail-layout">
+        <div class="detail-media">
+          <div id="detail-image-frame" class="detail-image-frame"></div>
+          <div id="detail-gallery" class="detail-gallery" aria-label="Imagens deste tópico"></div>
+          <button type="button" id="zoom-image" class="zoom-toggle" aria-pressed="false">Ampliar imagem</button>
+          <div class="image-navigation"><button type="button" id="image-previous" aria-label="Imagem anterior">← Anterior</button><span id="image-index">01 / 01</span><button type="button" id="image-next" aria-label="Próxima imagem">Próxima →</button></div>
+        </div>
+        <div class="detail-content">
+          <p class="detail-topic" id="detail-topic"></p>
+          <h2 id="detail-title"></h2>
+          <p id="detail-summary"></p>
+          <div id="detail-facts" class="detail-facts"></div>
+          <div class="detail-divider"></div>
+          <p class="detail-section-title">O que você precisa saber</p>
+          <div id="detail-text" class="detail-text"></div>
+          <div class="detail-actions"><button type="button" id="copy-details">Copiar informações ↗</button><a id="download-image" href="#" download>Baixar imagem ↗</a></div>
+          <p id="detail-no-image" class="detail-no-image" hidden>O material recebido apresenta este serviço sem uma fotografia específica.</p>
+        </div>
+      </div>
+    </article>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <p class="sr-only" id="live-status" aria-live="polite" aria-atomic="true"></p>
+</body>
+</html>
